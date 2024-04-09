@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentuu</title>
+    <link rel="stylesheet" href="dice.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body >
+    <div class="container" onmouseover="Over()" onmouseout="Out()">
+        <h1>DICE ROLLING</h1>
+        <label id="dice">Number Of Dice</label>
+        <input type="number" id="numOfDice" value="1" min="1" >
+        <button type="submit" id="btn" onclick="Roll()">Enter</button>
+        <div id="Dice-result"></div>
+        <div id="Images"></div>
+    </div>
+<script src="dice.js"></script>
+</body>
+</html>
